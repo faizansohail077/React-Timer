@@ -11,10 +11,13 @@ import RotateLeftIcon from "@material-ui/icons/RotateLeft";
 function TimerButton(props: any): any {
   const { setTime } = props;
   const [inter, setInter] = useState<number>(0);
+  
+  
+  
   const start = () => {
     let inter: any = setInterval(() => {
       setTime((prev: number) => prev + 1);
-    }, 1000);
+    }, 10);
     setInter(inter);
   };
   const stop = () => {
