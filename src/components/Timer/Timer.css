@@ -1,0 +1,18 @@
+body{
+    background-color:#6D819C ;
+}
+.time{
+    display: flex;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+span{
+    font-size: 2.5rem;
+}
+.time-text{
+    margin: 10px;
+    font-size: 3rem;
+}
