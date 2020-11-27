@@ -7,9 +7,9 @@ function SetTimer(timeInSecond: any): any {
   let minsFormat = mins < 10 ? `0${mins}` : mins;
   let secFormat = sec < 10 ? `0${sec}` : sec;
 
-  secFormat > 60 ? `minsFormat + 1` : minsFormat;
-  minsFormat > 60 ? `hourFormat + 1` : hourFormat;
-  return [hourFormat, minsFormat, secFormat];
+  let newSec = secFormat > 60 ? `minsFormat + 1` : minsFormat;
+  let newMin = minsFormat > 60 ? `hourFormat + 1` : hourFormat;
+  return [hourFormat, newMin, newSec];
 }
 
 export default SetTimer;
