@@ -1,0 +1,8 @@
+.control button{
+    margin: 15px;
+    padding: 3px 12px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}

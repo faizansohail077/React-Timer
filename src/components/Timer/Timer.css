@@ -1,18 +1,35 @@
 body{
-    background-color:#6D819C ;
+    margin: 0;
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    border: 1px solid black;
+    padding: 50px;
+    width: 100%;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    align-items: center;
+    background-color: grey ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .time{
     display: flex;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 5rem;
+}
+.time span{
+    position: relative;
+    bottom: 1px;
+}
+.timer-text{
     
-}
-span{
-    font-size: 2.5rem;
-}
-.time-text{
-    margin: 10px;
-    font-size: 3rem;
+    margin: 0;
 }

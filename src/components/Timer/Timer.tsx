@@ -14,14 +14,20 @@ function Timer() {
 
   return (
     <div>
-      <div className="time">
-        <p className="time-text">{timeArray[0]}</p>
-        <span>:</span>
-        <p className="time-text">{timeArray[1]}</p>
-        <span>:</span>
-        <p className="time-text">{timeArray[2]}</p>
+      <div className="wrap">
+        <div className="time">
+          <p className="time-text">
+            {timeArray[0]}
+            <span>:</span>
+          </p>
+          <p className="time-text">
+            {timeArray[1]}
+            <span>:</span>
+          </p>
+          <p className="time-text">{timeArray[2]}</p>
+        </div>
+        <TimerButton setTime={setTime} />
       </div>
-      <TimerButton setTime={setTime} />
     </div>
   );
 }
