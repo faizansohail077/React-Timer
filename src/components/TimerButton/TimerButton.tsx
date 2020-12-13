@@ -17,7 +17,7 @@ function TimerButton(props: any): any {
   const start = () => {
     let inter: any = setInterval(() => {
       setTime((prev: number) => prev + 1);
-    }, 10);
+    }, 1000);
     setInter(inter);
   };
   const stop = () => {
