@@ -1,5 +1,3 @@
-import { time } from "console";
-
 function SetTimer(timeInSecond: any): any {
   // let hour: number = Math.floor(timeInSecond / 3600);
   // let mins: number = Math.floor((timeInSecond - hour * 3600) / 60);
